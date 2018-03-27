@@ -26,9 +26,9 @@
 \phone[fixed]{+3123~56~50~770}
 \email{mb2054@cantab.net}
 \homepage{gladdy.github.io}
-
 \social[github]{Gladdy}
-\social[linkedin]{linkedin.com/pub/martijn-bakker/93/462/731}
+\social[linkedin]{martijn-bakker-73146293}
+
 %\phone[fax]{+3~(456)~789~012}
 %\social[twitter]{jdoe}
 %\extrainfo{additional information}
@@ -44,27 +44,32 @@
 
 \cvitem{}{Haarlem, February 5, 1995}
 
-\section{Education}
-\cventry{2015 -- 2016}{MPhil in Advanced Computer Science}{University of Cambridge}{Cambridge}{With Distinction}{The MPhil ACS is a degree featuring both courses and a significant research aspect, designed to prepare students for doctoral research. My research project is on modifying Google's V8 JavaScript engine to employ automatic multithreading optimizations}
-\cventry{2012 -- 2015}{Advanced Technology}{University of Twente}{Enschede}{Cum Laude with Honours}{Advanced Technology is a broad engineering BSc programme, including mechanical and electrical disciplines. The programme also includes the commercial and social aspects of the technologies. I specialised in the field of Computer Science through additional and elective courses.}
-\cventry{2014}{International Summer School}{The Chinese University of Hong Kong}{}{}{'International Business' and 'Evidence-Based Human Resource Management', attaining grades A and A-.}
-\cventry{2013 -- 2015}{Honours programme, design track}{University of Twente}{Enschede}{}{The honours programme is offered to the top 5\% of UT students. It covers academic skills and the analysis and creation of designs for society in depth.}
-\cventry{2013}{Excellence stream}{University of Twente}{Enschede}{}{The excellence stream is an additional course covering more advanced mathematics, offered by the UT to top students}
+\section{Summary}
+\cvitem{}{I enjoy building things, and I've always done so. It's fun, but constructing solutions to actual, unsolved problems is better. As the advent of digital technology has reduced the entry barrier for the creation of impactful solutions to next to nothing, I have used this as my main framework for solving problems over the the past decade. My strong backgrounds in computer science, mathematics and engineering allow me to understand and work on the entire technology stack - ranging from hardware and the operating system, all the way up to web applications and machine learning algorithms. I'm especially interested in building novel software systems that push the limits of modern hardware, eg. by multithreading, (custom) hardware accelerators or handwritten assembly.}
 
+\section{Education}
+\cventry{2015 -- 2016}{MPhil in Advanced Computer Science}{University of Cambridge}{Cambridge}{With Distinction}{The MPhil ACS is a degree featuring taught modules and a significant research aspect, designed to prepare students for doctoral research. My research project involved modifying the internals of Google's V8 JavaScript engine (C++): distributing loop iterations over multiple processor cores to improve performance. Hence, the modules I chose were all related to hardware and low-level programming: '\emph{Advanced Computer Design}', '\emph{Modern Compiler Design}', '\emph{Multicore Semantics and Programming}', '\emph{Advanced Operating Systems}' and '\emph{System on Chip Design and Modelling}'. Additionally, I sat in on the module '\emph{Computer Vision \& Robotics}'.}
+\cventry{2012 -- 2015}{Advanced Technology}{University of Twente}{Enschede}{95\textsuperscript{th} percentile - Cum Laude with Honours}{Advanced Technology is a broad engineering BSc programme, including mechanical and electrical disciplines. The programme also includes the commercial and social aspects of the technologies. I specialised in the field of Computer Science through additional and elective courses. My thesis was on the construction and evaluation of a hardware accelerator for approximating the solutions to differential equations - implemented and tested on an FPGA.}
+
+\cventry{2013 -- 2015}{Honours programme, design track}{University of Twente}{Enschede}{}{The honours programme is offered to the top 5\% of UT students. It features in-depth coverage of academic skills and the analysis and creation of designs for society.}
+\cventry{2013}{Excellence stream}{University of Twente}{Enschede}{}{The excellence stream is an additional course covering more advanced mathematics, offered by the UT to top students}
 \section{Work Experience}
-\cventry{2016}{Jump Trading International}{London}{}{}{Software Engineering Internship - developing internal tools in C++ and Python.}
+\cventry{2016}{Jump Trading International - Core Development Internship}{London}{}{}{Classes on '\emph{Trading 101}', '\emph{Statistical Learning}' and data analytics and programming in R, Python and C++. As part of the Core Dev team, I developed binary conversion tools, a trade reconciliation suite operating on data from various internal and external sources and analysis tools for low-level binary network protocols.}
 
 \section{Teaching}
-\cventry{2015}{Course developer -- Concurrent programming}{Dr. M. Huisman -- University of Twente}{}{}{Development of course materials for the course 'Concurrent Programming', offered to sophomore Computer Science students as part of the module 'Programming Paradigms'.}
+\cventry{2015}{Course developer -- Concurrent programming}{Dr. M. Huisman -- University of Twente}{}{}{Development of course materials for the course '\emph{Concurrent Programming}', offered to sophomore Computer Science students as part of the module '\emph{Programming Paradigms}'.}
 \cventry{2015}{Teaching assistant -- Intelligent Interaction Design}{Dr. M. Theune -- University of Twente}{}{}{Guiding tutorial sessions and checking assignments for the course on artificial intelligence.}
-\cventry{2014 \& 2015}{Teaching assistant -- Advanced Engineering}{Dr. R.M.J. van Damme -- University of Twente}{}{}{Guiding seminars and tutorial sessions on applications of differential equations in electronics and mechanics.}
-\cventry{2014}{Lab supervisor -- Thermodynamics}{Dr. H.K. Hemmes -- University of Twente}{}{}{Guiding laboratory work and grading of the resulting lab journals.}
 
 \section{Extracurricular activities}
-\cventry{2014}{Netherlands Asia Honours Summer School}{Hong Kong \& Shanghai}{}{}{The NAHSS is a unique interdisciplinary program for 100 Dutch top students which contains 4 main aspects: attending a summer school, visiting both Dutch and Asian companies, gaining acquaintance with the cultures and conducting research commissioned by a NAHSS partner company, for me, KPN: "How can ICT aid in keeping elderly at home for longer, both in Holland and in China?".}
+\cventry{2014}{Netherlands Asia Honours Summer School}{Hong Kong \& Shanghai}{}{}{The NAHSS is a unique interdisciplinary program for 100 Dutch top students which contains 4 main aspects: attending a summer school, visiting both Dutch and Asian companies, gaining acquaintance with the cultures and conducting research commissioned by a NAHSS partner company, for me, KPN: '\emph{How can ICT aid in keeping elderly at home for longer, both in Holland and in China?}'.}
 \cventry{2013 -- 2014}{Commissioner of Music}{Musica Silvestra Orkest}{Enschede}{}{As board member, I handled selecting, obtaining and distributing sheet music to the members alongside with arranging concert locations.}
-\cventry{2011}{IELTS}{}{Amsterdam}{}{International English Language Testing System, band 8/9.}
+%\cventry{2011}{IELTS}{}{Amsterdam}{}{International English Language Testing System, band 8/9.}
 \cventry{2010}{EUSO}{}{Nijmegen}{}{Third place at the national qualifiers for the European Union Science Olympiad.}
+
+\section{Projects}
+\cvitem{EasyOpenCL}{A high-level OpenCL wrapper library I originally created for my students in '\emph{Concurrent Programming}', which currently lives on as an open source project. It abstracts away the exact OpenCL function calls, while still exposing the steps in the process of running code on the GPU.}
+\cvitem{Mininode}{A proof-of-concept in combining the easy-to-understand, asynchronous nature of Node.js with the performance and efficiency of optimized C++. It uses C++11 lambdas to represent the JavaScript callbacks and POSIX sockets for network connectivity.}
+
 
 \section{Additional interests}
 \cvitem{3D}{Creating (photorealistic) 3D models and animations, using Blender, 3ds Max and Photoshop}
@@ -74,8 +79,8 @@
 \section{Languages}
 \cvitem{Dutch}{Native}
 \cvitem{English}{Fluent}
-\cvitem{French}{Basic proficiency}
-\cvitem{}{}
-\cvitem{Programming}{C/C++, Python, Matlab, Mathematica, Java, JavaScript and HTML/CSS.}
+%\cvitem{French}{Basic proficiency}
+%\cvitem{}{}
+\cvitem{Programming}{C/C++, Python, x64 Assembly, VHDL, Bluespec SystemVerilog, Matlab, Java, JavaScript, SQL and HTML/CSS.}
 
 \end{document}
