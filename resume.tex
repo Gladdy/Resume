@@ -21,8 +21,8 @@
 \name{Martijn}{Bakker}
 %\title{Haarlem, The Netherlands \newline February 5, 1995}
 
-\address{285b Crystal Palace Rd}{SE22 9JL}{London, United Kingdom \vspace{20pt}}
-\phone[mobile]{+316~41~25~8446}
+\address{St. Catharine's College}{CB2 1RL}{Cambridge, United Kingdom \vspace{20pt}}
+\phone[mobile]{+31~6~41~25~8446}
 %\phone[fixed]{+3123~56~50~770}
 \email{martijn.simon.bakker@hotmail.com}
 \homepage{gladdy.github.io}
@@ -44,19 +44,22 @@
 
 \cvitem{}{Haarlem, February 5, 1995}
 
-\section{Summary}
-\cvitem{}{I enjoy building things, and I've always done so. It's fun, but constructing solutions to actual, unsolved problems is better. As the advent of digital technology has reduced the entry barrier for the creation of impactful solutions to next to nothing, I have used this as my main framework for solving problems over the the past decade. My strong backgrounds in computer science, mathematics and engineering allow me to understand and work on the entire technology stack - ranging from hardware and the operating system, all the way up to web applications and machine learning algorithms. I'm especially interested in building novel software systems that push the limits of modern hardware, eg. by multithreading, (custom) hardware accelerators or handwritten assembly.}
+% \section{Summary}
+% \cvitem{}{I enjoy building things, and I've always done so. It's fun, but constructing solutions to actual, unsolved problems is better. As the advent of digital technology has reduced the entry barrier for the creation of impactful solutions to next to nothing, I have used this as my main framework for solving problems over the the past decade. My strong backgrounds in computer science, mathematics and engineering allow me to understand and work on the entire technology stack - ranging from hardware and the operating system, all the way up to web applications and machine learning algorithms. I'm especially interested in building novel software systems that push the limits of modern hardware, eg. by multithreading, (custom) hardware accelerators or handwritten assembly.}
 
+\section{Experience}
+\cventry{2018 -- now}{University of Cambridge - Research Assistant}{Cambridge}{}{}{The POETS project (Partially Ordered Event Triggered Systems) intends to construct an overlay for a distributed FPGA system containing thousands of cores that communicate via message passing. It is intended to tackle graph analytics and scientific compute applications that are otherwise performance bound by a lack of memory locality in the caches. Within the project, to find a topic suitable for a PhD dissertation, I looked at using the architecture for fluid dynamics, performing sparse linear algebra efficiently and possibilities for transactional memory.}
+\cventry{2016 -- 2018}{Citadel Securities - Software Engineer}{London}{}{}{As part of the team maintaining the options trading platform, I built a generic framework for stream data processing and analytics in Python which has since been rolled out and is being used globally. Furthermore I designed, built and tested a new trading engine for option basket orders with low-latency components to improve fill rates and was responsible for the development work driving the restructuring of the global options hedging strategies.}
+\cventry{2016}{Jump Trading International - Core Development Internship}{London}{}{}{Classes on '\emph{Trading 101}', '\emph{Statistical Learning}' and data analytics and programming in R, Python and C++. As part of the Core Dev team, I developed binary conversion tools, a trade reconciliation suite operating on data from various internal and external sources and analysis tools for low-level binary network protocols.}
+
+% 
 \section{Education}
 \cventry{2015 -- 2016}{MPhil in Advanced Computer Science}{University of Cambridge}{Cambridge}{With Distinction}{The MPhil ACS is a degree featuring taught modules and a significant research aspect, designed to prepare students for doctoral research. My research project involved modifying the internals of Google's V8 JavaScript engine (C++): distributing loop iterations over multiple processor cores to improve performance. Hence, the modules I chose were all related to hardware and low-level programming: '\emph{Advanced Computer Design}', '\emph{Modern Compiler Design}', '\emph{Multicore Semantics and Programming}', '\emph{Advanced Operating Systems}' and '\emph{System on Chip Design and Modelling}'. Additionally, I sat in on the module '\emph{Computer Vision \& Robotics}'.}
 \cventry{2012 -- 2015}{Advanced Technology}{University of Twente}{Enschede}{95\textsuperscript{th} percentile - Cum Laude with Honours}{Advanced Technology is a broad engineering BSc programme, including mechanical and electrical disciplines. The programme also includes the commercial and social aspects of the technologies. I specialised in the field of Computer Science through additional and elective courses. My thesis was on the construction and evaluation of a hardware accelerator for approximating the solutions to differential equations - implemented and tested on an FPGA.}
 \cventry{2013 -- 2015}{Honours programme, design track}{University of Twente}{Enschede}{}{The honours programme is offered to the top 5\% of UT students. It features in-depth coverage of academic skills and the analysis and creation of designs for society.}
 %\cventry{2013}{Excellence stream}{University of Twente}{Enschede}{}{The excellence stream is an additional course covering more advanced mathematics, offered by the UT to top students}
 
-\newpage
-\section{Work Experience}
-\cventry{2016 -- now}{Citadel Securities - Software Engineer}{London}{}{}{As part of the team maintaining the options trading platform, I built a generic framework for stream data processing and analytics in Python which has since been rolled out and is being used globally. Furthermore I designed, built and tested a new trading engine for option basket orders and was responsible for the development work driving the restructuring of the global options hedging strategies.}
-\cventry{2016}{Jump Trading International - Core Development Internship}{London}{}{}{Classes on '\emph{Trading 101}', '\emph{Statistical Learning}' and data analytics and programming in R, Python and C++. As part of the Core Dev team, I developed binary conversion tools, a trade reconciliation suite operating on data from various internal and external sources and analysis tools for low-level binary network protocols.}
+% \newpage
 
 \section{Teaching}
 \cventry{2015}{Course developer -- Concurrent programming}{Dr. M. Huisman -- University of Twente}{}{}{Development of course materials for the course '\emph{Concurrent Programming}', offered to sophomore Computer Science students as part of the module '\emph{Programming Paradigms}'.}
@@ -85,6 +88,6 @@
 \cvitem{English}{Fluent}
 %\cvitem{French}{Basic proficiency}
 %\cvitem{}{}
-\cvitem{Programming}{C/C++, Python, x64 Assembly, VHDL, Bluespec SystemVerilog, Matlab, Java, JavaScript, SQL and HTML/CSS.}
+\cvitem{Programming}{C/C++, Python, x64 Assembly, Rust, Matlab, JavaScript, SQL, HTML/CSS}
 
 \end{document}
